@@ -6,7 +6,7 @@ Where user can find the least number of notes to be given to user as cash change
 
 ```
 Tech Stack:
-React JS
+HTML CSS JS
 ```
 
 ### Demo Link:
