@@ -12,8 +12,21 @@ function calculatenotes(){
   var values=[]
   var current=Number(cash.value)
   var amount=Number(bill.value)
-  if (current <= amount){
-    alert("Cash is less or equal to bill")
+
+  if(isNaN(current)){
+    alert("Enter Cash")
+    return
+  }
+  if(isNaN(amount)){
+    alert("Enter Bill")
+    return
+  }
+
+  if (current === amount){
+    alert("0 notes as bill and cash is equal")
+  }
+  if (current < amount){
+    alert("Cash is less than bill")
 
   }else{
     current=current-amount
